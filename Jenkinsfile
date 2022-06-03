@@ -1,10 +1,10 @@
 pipeline {
-    agent any
-    stages {
-        stage('princess') {
-            steps {
-              sh 'git clone https://github.com/Healthapp-org/G5T5-CI-N-Stage.git'
-            }
-        }
+  agent any
+  stages {
+    stage('Git checkout'){
+      steps{
+        git 'https://github.com/nduka145/tomcat8.git'
+      }
     }
+  }
 }
