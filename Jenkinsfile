@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('princess') {
             steps {
-              git 'https://github.com/Healthapp-org/G5T5-CI-N-Stage.git'
+              sh 'git clone https://github.com/Healthapp-org/G5T5-CI-N-Stage.git'
             }
         }
     }
