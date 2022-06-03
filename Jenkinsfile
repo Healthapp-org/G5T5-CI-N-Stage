@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Git checkout'){
       steps{
-        git 'https://github.com/nduka145/tomcat8.git'
+        git 'https://github.com/Healthapp-org/G5T5-CI-N-Stage.git'
       }
     }
   }
