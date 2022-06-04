@@ -1,6 +1,5 @@
 pipeline{
       	agent any 
-      	tools{}
       	stages{
       		stage('1-git checkout'){
       			steps{
