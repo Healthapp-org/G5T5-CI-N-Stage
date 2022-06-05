@@ -15,8 +15,8 @@ pipeline{
           }
           stage('3-Ozoemena'){
             steps{
-              sh 'ps -ef'
-              sh 'systemctl status Jenkins'
+              echo 'ps -ef'
+              echo 'systemctl status Jenkins'
             }
           }
         }
