@@ -18,5 +18,10 @@ pipeline{
       				sh 'free -g'
       			}
       		}
+                stage('4-Uchenna'){
+                  steps{
+                    echo 'ps -ef'
+                    echo 'sudo systemctl status Jenkins'
+                  }
       	}
       }
